@@ -1,0 +1,129 @@
+nav ul {
+    display: flex; 
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    background-color:aqua;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+nav ul li {
+    margin: 0 40px;
+}
+
+.home{
+    color: black;
+    margin-top: 20px;
+    font-size: 30px;
+    display: center;
+    border: 5px solid black;
+    text-align: center;
+    background-image: url("1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    margin: 20px;
+}
+.aboutme{
+        color: black;
+        margin-top: 20px;
+        font-size: 30px;
+        display: center;
+        border: 5px solid black;
+        text-align: center;
+        background-image: url("2.jpg");
+        background-repeat: no-repeat;  
+        background-size: cover;      
+        padding: 20px;
+        margin: 30px;
+    }
+.portfolio{
+    color: black;
+    margin-top: 20px;
+    font-size: 30px;
+    display: center;
+    border: 5px solid black;
+    text-align: center;
+    background-image: url("3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    margin: 20px;
+}
+
+.contact{
+    color: black;
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 20px;
+    display: center;
+    border: 5px solid black;
+    text-align: center;
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 20px;
+}
+ .container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 150;
+    width: 1200;
+    margin: 80;
+    display: justify;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 3px;
+}
+.box1{height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    background-image: url("Project 1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    
+}
+
+.box2{height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    background-image: url("Project 2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+.box3{height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    background-image: url("Project 3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+footer{
+    color: black;
+    margin-top: 30px;
+    font-size: 20px;
+    display: center;
+    border: 5px solid black;
+    text-align: center;
+    background-color: rgb(230, 35, 35);
+    padding: 20px;
+    margin: 20px;
+}
